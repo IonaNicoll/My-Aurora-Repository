@@ -1,4 +1,4 @@
-# repositoryname
+# My Aurora Repository
 additional content to extend [Aurora](https://aurorabuilder.com/), by Iona Nicoll
 
 index url: https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll.index

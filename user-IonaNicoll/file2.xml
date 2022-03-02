@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>File 2</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="file2.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/file2.xml" />
 		</update>
 	</info>
