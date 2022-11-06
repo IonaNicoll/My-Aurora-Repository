@@ -9,7 +9,7 @@
 	
 	<!-- place your elements here -->
   
-  <element name="My Ranger" type="Class" source="My Homebrew" id="ID_IONA_HOMEBREW_CLASS_RANGER">
+  <element name="Homebrew Ranger" type="Class" source="My Homebrew" id="ID_IONA_HOMEBREW_CLASS_RANGER">
     <description>
       <p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>
       <p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
@@ -326,16 +326,11 @@
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_ASI" level="4"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION" level="6"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY" level="6"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND" level="8"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE" level="9"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COTW" level="20"/>
     </rules>
     <multiclass id="ID_IONA_HOMEBREW_MULTICLASS_RANGER">
@@ -457,7 +452,7 @@
       <select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -499,7 +494,7 @@
       <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -537,7 +532,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -580,7 +575,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -596,7 +591,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -612,7 +607,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -635,7 +630,7 @@
     </sheet>
   </element>
 
-  <element name="Beast Master" type="Archetype" source="My Homebrew" id="ID_IONA_ARCHETYPE_RANGER_BEAST_MASTER">
+  <element name="Homebrew Beast Master" type="Archetype" source="My Homebrew" id="ID_IONA_ARCHETYPE_RANGER_BEAST_MASTER">
     <supports>Ranger Archetype</supports>
     <description>
       <p>The Beast Master archetype embodies the friendship between a ranger and their companion. United in focus, even the most monstrous foes cannot stand before your combined ferocity.</p>
