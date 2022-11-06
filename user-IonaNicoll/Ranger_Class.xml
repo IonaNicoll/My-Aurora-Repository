@@ -3,7 +3,7 @@
 	<info>
 		<name>Ranger Class</name>
 		<update version="1.0.1">
-			<obsolete name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/Ranger_Class.xml" />
+			<file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/Ranger_Class.xml" />
 		</update>
 	</info>
 	
