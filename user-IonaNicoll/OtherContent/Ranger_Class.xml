@@ -3,13 +3,13 @@
 	<info>
 		<name>Ranger Class</name>
 		<update version="1.0.1">
-			<file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/Ranger_Class.xml" />
+			<file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Ranger_Class.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
   
-  <element name="Homebrew Ranger" type="Class" source="My Homebrew" id="ID_IONA_HOMEBREW_CLASS_RANGER">
+  <element name="Homebrew Ranger" type="Class" source="Other Content" id="ID_IONA_HOMEBREW_CLASS_RANGER">
     <description>
       <p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>
       <p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
@@ -350,7 +350,7 @@
       </rules>
     </multiclass>
   </element>
-  <element name="Woodland Companion" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION">
+  <element name="Woodland Companion" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION">
     <description>
       <p>You gain a spirit companion that accompanies you on your adventures and is able to take the form of various beasts to fight alongside you, though it is a fey instead of its normal creature types and has an alignment of your choice. Its Intelligence becomes 10 and it gains the ability to understand one language of your choice that you speak. While your companion is within 1 mile of you, you can communicate with it telepathically. Additionally, as an action, you can see through your companions's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the companion has. During this time, you are deaf and blind with regard to your own senses.</p>
       <p class="indent">Conjuring a form for your companion takes 10 minutes and level of spell slot determined by the CR of the form you wish to conjure or for free during a long rest.Your ranger level determines the beasts your companion can become. This is all shown in the Companion Forms table.</p>
@@ -367,7 +367,7 @@
       <select type="Class Feature" name="Woodland Companion" supports="Woodland Companion" level="1" />
     </rules>
   </element>
-  <element name="Fighting Style" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE">
+  <element name="Fighting Style" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE">
     <description>
       <p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
       <h5 class="caption">ARCHERY</h5>
@@ -443,7 +443,7 @@
       <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
     </rules>
   </element>
-  <element name="Ranger Archetype" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">
+  <element name="Ranger Archetype" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">
     <description>
       <p>At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
     </description>
@@ -452,7 +452,7 @@
       <select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -468,7 +468,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Ability Score Improvement" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_ASI">
+  <element name="Ability Score Improvement" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_ASI">
     <compendium display="false" />
     <description>
       <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
@@ -483,7 +483,7 @@
       <select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
     </rules>
   </element>
-  <element name="Extra Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_EXTRA_ATTACK">
+  <element name="Extra Attack" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK">
     <description>
       <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
     </description>
@@ -494,7 +494,7 @@
       <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -510,7 +510,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Mystic Companion" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION">
+  <element name="Mystic Companion" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION">
     <description>
       <p>Your companion's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
       <p class="indent">In addition, your companion gains a +1 bonus to their attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.</p>
@@ -522,7 +522,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Terrain Mastery" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY">
+  <element name="Terrain Mastery" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY">
     <description>
       <p>You gain swim and climb speeds equal to your walking speed.</p>
     </description>
@@ -532,7 +532,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -548,7 +548,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Wild Bond" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND">
+  <element name="Wild Bond" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND">
     <description>
       <p>Your bond with nature allows you to take on certain bestial aspects.</p>
       <p class="indent">As a bonus action, you may gain one of the following benefits for its duration or until you use this feature again.</p>
@@ -558,7 +558,7 @@
       <description></description>
     </sheet>
   </element>
-  <element name="Camouflage" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE">
+  <element name="Camouflage" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE">
     <description>
       <p>You gain an enhanced version of the skulker feat, granting the following benefits:</p>
       <ul>
@@ -575,7 +575,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -591,7 +591,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -607,7 +607,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18">
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -621,7 +621,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Call of the Wild" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COTW">
+  <element name="Call of the Wild" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COTW">
     <description>
       <p>You have attracted a second fey spirit to your side, allowing you to have 2 Woodland Companions simultaneously. Any class or subclass features that reference your companion affect both companions.</p>
     </description>
@@ -630,7 +630,7 @@
     </sheet>
   </element>
 
-  <element name="Homebrew Beast Master" type="Archetype" source="My Homebrew" id="ID_IONA_ARCHETYPE_RANGER_BEAST_MASTER">
+  <element name="Homebrew Beast Master" type="Archetype" source="Other Content" id="ID_IONA_ARCHETYPE_RANGER_BEAST_MASTER">
     <supports>Ranger Archetype</supports>
     <description>
       <p>The Beast Master archetype embodies the friendship between a ranger and their companion. United in focus, even the most monstrous foes cannot stand before your combined ferocity.</p>
@@ -652,7 +652,7 @@
     </rules>
   </element>
   
-  <element name="Archetype Companions" type="Archetype Feature" source="My Homebrew" id="ID_IONA_ARCHETYPEFEATURE_RANGER_ARCHETYPE_COMPANIONS">
+  <element name="Archetype Companions" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_ARCHETYPE_COMPANIONS">
     <description>
     </description>
     <sheet display="false" />
@@ -661,7 +661,7 @@
     </rules>
   </element>
   
-  <element name="Fight as One" type="Archetype Feature" source="My Homebrew" id="ID_IONA_ARCHETYPEFEATURE_RANGER_FAO">
+  <element name="Fight as One" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_FAO">
     <description>
       <p>Your companion gains a bonus to its AC and damage rolls equal to your proficiency bonus.</p>
     </description>
@@ -670,7 +670,7 @@
       <select type="Archetype Feature" name="Fight as One" supports="Fight as One" />
     </rules>
   </element>
-  <element name="Tag Team" type="Archetype Feature" source="My Homebrew" id="ID_IONA_ARCHETYPEFEATURE_RANGER_TAG_TEAM">
+  <element name="Tag Team" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_TAG_TEAM">
     <description>
       <p>When you or your companion make your first attack on your turn, you can choose to Tag Team your enemies. Doing so grants you and your companion advantage on attack rolls against a creature if at least one of you is within 5 feet of the creature and is not incapacitated until the start of your next turn.</p>
       <p class="indent">You can use this feature a number of times equal to your proficiency bonus, unless you expend a spell slot of 2nd level or higher to use it again. You regain all expended uses when you finish a long rest.</p>
@@ -681,7 +681,7 @@
     </rules>
   </element>
   
-  <element name="Spirit Bond" type="Archetype Feature" source="My Homebrew" id="ID_IONA_ARCHETYPEFEATURE_RANGER_SPIRIT_BOND">
+  <element name="Spirit Bond" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_SPIRIT_BOND">
     <description>
       <p>When you or your companion take damage, they can choose to gain resistance to that damage. Doing so causes the other to take the same amount of damage.</p>
     </description>
@@ -691,7 +691,7 @@
     </rules>
   </element>
 
-  <element name="Beastial Wrath" type="Archetype Feature" source="My Homebrew" id="ID_IONA_ARCHETYPEFEATURE_RANGER_BEASTIAL_WRATH">
+  <element name="Beastial Wrath" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_BEASTIAL_WRATH">
     <description>
       <p>Your companion can use a bonus action to enter a frenzied state. Doing so grants them the following bonuses for 1 minute:</p>
       <ul>
