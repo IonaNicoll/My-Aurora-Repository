@@ -3,12 +3,12 @@
 	<info>
 		<name>Ranger Class</name>
 		<update version="1.0.1">
-			<file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/Ranger_Class.xml" />
+			<obsolete name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/Ranger_Class.xml" />
 		</update>
 	</info>
 	
 	<!-- place your elements here -->
-
+  
   <element name="Ranger" type="Class" source="My Homebrew" id="ID_IONA_HOMEBREW_CLASS_RANGER">
     <description>
       <p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>
@@ -716,4 +716,5 @@
       <select type="Archetype Feature" name="Beastial Wrath" supports="Beastial Wrath" />
     </rules>
   </element>
+  
 </elements>
