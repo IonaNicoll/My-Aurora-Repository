@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Other Content</name>
+		<description>Content I added from other sources for personal use</description>
+		<author>Iona Nicoll</author>
+		<update version="1.0.2">
+			<file name="Other_Content.index" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Other_Content.index" />
+		</update>
+	</info>
+	<files>
+    <file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Ranger_Class.xml" />
+	</files>
+</index>

@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ranger Class</name>
+		<update version="1.0.1">
+			<file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Ranger_Class.xml" />
+		</update>
+	</info>
+	
+	<!-- place your elements here -->
+  
+  <element name="Homebrew Ranger" type="Class" source="Other Content" id="ID_IONA_HOMEBREW_CLASS_RANGER">
+    <description>
+      <p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>
+      <p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
+      <p class="indent">After tumbling away from a cone of freezing air, an elf finds her feet and draws back her bow to loose an arrow at the white dragon. Shrugging off the wave of fear that emanates from the dragon like the cold of its breath, she sends one arrow after another to find the gaps between the dragon’s thick scales.</p>
+      <p class="indent">Holding his hand high, a half-elf whistles to the hawk that circles high above him, calling the bird back to his side. Whispering instructions in Elvish, he points to the owlbear he’s been tracking and sends the hawk to distract the creature while he readies his bow.</p>
+      <p class="indent">Far from the bustle of cities and towns, past the hedges that shelter the most distant farms from the terrors of the wild, amid the dense-packed trees of trackless forests and across wide and empty plains, rangers keep their unending watch.</p>
+      <h4>DEADLY HUNTERS</h4>
+      <p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.</p>
+      <p class="indent">Thanks to their familiarity with the wilds, rangers acquire the ability to cast spells that harness nature’s power, much as a druid does. Their spells, like their combat abilities, emphasize speed, stealth, and the hunt. A ranger’s talents and abilities are honed with deadly focus on the grim task of protecting the borderlands.</p>
+      <h4>INDEPENDENT ADVENTURERS</h4>
+      <p>Though a ranger might make a living as a hunter, a guide, or a tracker, a ranger’s true calling is to defend the outskirts of civilization from the ravages of monsters and humanoid hordes that press in from the wild. In some places, rangers gather in secretive orders or join forces with druidic circles. Many rangers, though, are independent almost to a fault, knowing that, when a dragon or a band of orcs attacks, a ranger might be the first—and possibly the last—line of defense.</p>
+      <p class="indent">This fierce independence makes rangers well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, rangers respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization’s foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.</p>
+      <h4>CREATING A RANGER</h4>
+      <p>As you create your ranger character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the ranger’s ways? Did you leave your apprenticeship, or was your mentor slain— perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of rangers affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.</p>
+      <p class="indent">What’s the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?</p>
+      <h5>QUICK BUILD</h5>
+      <p>You can make a ranger quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. (Some rangers who focus on two-weapon fighting make Strength higher than Dexterity.) Second, choose the outlander background.</p>
+      <h3>CLASS FEATURES</h3>
+      <p>As a ranger, you gain the following class features.</p>
+      <h5>HIT POINTS</h5>
+      <ul class="unstyled">
+        <li>
+          <strong>Hit Dice:</strong> 1d10 per ranger level
+        </li>
+        <li>
+          <strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier
+        </li>
+        <li>
+          <strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per ranger level after 1st
+        </li>
+      </ul>
+      <h5>PROFICIENCIES</h5>
+      <ul class="unstyled mb">
+        <li>
+          <strong>Armor:</strong> Light armor, medium armor, shields
+        </li>
+        <li>
+          <strong>Weapons:</strong> Simple weapons, martial weapons
+        </li>
+        <li>
+          <strong>Tools:</strong> None
+        </li>
+      </ul>
+      <ul class="unstyled">
+        <li>
+          <strong>Saving Throws:</strong> Strength, Wisdom
+        </li>
+        <li>
+          <strong>Skills:</strong> Choose three skills from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival
+        </li>
+      </ul>
+      <h5>EQUIPMENT</h5>
+      <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+      <ul>
+        <li>
+          <i>(a)</i> scale mail or <i>(b)</i> studded leather armor
+        </li>
+        <li>
+          <i>(a)</i> two shortswords or <i>(b)</i> two simple melee weapons
+        </li>
+        <li>
+          <i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack
+        </li>
+        <li>A longbow and a quiver of 20 arrows</li>
+        <li>Alternatively, you may start with 5d4 × 10 gp to buy your own equipment.</li>
+      </ul>
+      <h5 class="caption">THE RANGER</h5>
+      <table class="class-features">
+        <thead>
+          <tr>
+            <td class="col-5">Level</td>
+            <td class="left">Features</td>
+            <td class="col-10">Spells Known</td>
+            <td>1st</td>
+            <td>2nd</td>
+            <td>3rd</td>
+            <td>4th</td>
+            <td>5th</td>
+          </tr>
+        </thead>
+        <tr>
+          <td> 1st</td>
+          <td class="left">Woodland Companion, Strider</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 2nd</td>
+          <td class="left">Fighting Style, Spellcasting</td>
+          <td>2</td>
+          <td>2</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 3rd</td>
+          <td class="left">Ranger Archetype, Companion Upgrade</td>
+          <td>3</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 4th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>3</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 5th</td>
+          <td class="left">Extra Attack, Companion Upgrade</td>
+          <td>4</td>
+          <td>4</td>
+          <td>2</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 6th</td>
+          <td class="left">Mystic Companion, Terrain Mastery</td>
+          <td>4</td>
+          <td>4</td>
+          <td>2</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 7th</td>
+          <td class="left">Ranger Archetype feature, Companion Upgrade</td>
+          <td>5</td>
+          <td>4</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 8th</td>
+          <td class="left">Ability Score Improvement, Wild Bond</td>
+          <td>5</td>
+          <td>4</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td> 9th</td>
+          <td class="left">Camouflage</td>
+          <td>6</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td class="left">Companion Upgrade</td>
+          <td>6</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>11th</td>
+          <td class="left">Ranger Archetype feature</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>7</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>—</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>13th</td>
+          <td class="left">—</td>
+          <td>8</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>14th</td>
+          <td class="left">Companion Upgrade</td>
+          <td>8</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>15th</td>
+          <td class="left">Ranger Archetype feature</td>
+          <td>9</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>16th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>9</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>17th</td>
+          <td class="left">—</td>
+          <td>10</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>18th</td>
+          <td class="left">Companion Upgrade</td>
+          <td>10</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>19th</td>
+          <td class="left">Ability Score Improvement</td>
+          <td>11</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>20th</td>
+          <td class="left">Call of the Wild</td>
+          <td>11</td>
+          <td>4</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+        </tr>
+      </table>
+      <div element="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
+      <div element="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_ASI" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_COTW" />
+    </description>
+    <sheet display="false">
+      <description>A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</description>
+    </sheet>
+    <setters>
+      <set name="short">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</set>
+      <set name="hd">d10</set>
+    </setters>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION" level="1"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_ASI" level="4"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION" level="6"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY" level="6"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND" level="8"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE" level="9"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COTW" level="20"/>
+    </rules>
+    <multiclass id="ID_IONA_HOMEBREW_MULTICLASS_RANGER">
+      <prerequisite>Dexterity or Strength 13 and Wisdom 13</prerequisite>
+      <requirements>([dex:13]||[str:13],[wis:13])</requirements>
+      <setters>
+        <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class’s skill list</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        <select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="1"/>
+      </rules>
+    </multiclass>
+  </element>
+  <element name="Woodland Companion" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION">
+    <description>
+      <p>You gain a spirit companion that accompanies you on your adventures and is able to take the form of various beasts to fight alongside you, though it is a fey instead of its normal creature types and has an alignment of your choice. Its Intelligence becomes 10 and it gains the ability to understand one language of your choice that you speak. While your companion is within 1 mile of you, you can communicate with it telepathically. Additionally, as an action, you can see through your companions's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the companion has. During this time, you are deaf and blind with regard to your own senses.</p>
+      <p class="indent">Conjuring a form for your companion takes 10 minutes and level of spell slot determined by the CR of the form you wish to conjure or for free during a long rest.Your ranger level determines the beasts your companion can become. This is all shown in the Companion Forms table.</p>
+      <p class="indent">At 1st level, for example, conjuring your companion takes no spell slot. It can take the form of any beast that has a challenge rating of 0 and is size medium or smaller.</p>
+      <p class="indent">Your companion acts on your turn and always obeys your commands. You have full control of its movement and any actions it takes (no action required by you). When your companion drops to 0 hit points, it disappears, leaving behind no physical form.</p>
+      <p class="indent">You can dismiss your companion's conjured form as an action, returning it to its home plane.</p>
+      <p class="indent">Should you die, your companion continues to exist for 24 hours before returning to its home plane.</p>
+      <p class="indent">You can't have more than one companion at a time. If you use this ability while you already have a companion, you instead cause it to adopt a new form.</p>
+    </description>
+    <sheet>
+      <description>You gain a spirit companion that accompanies you on your adventures and is able to take the form of various beasts to fight alongside you.</description>
+    </sheet>
+    <rules>
+      <select type="Class Feature" name="Woodland Companion" supports="Woodland Companion" level="1" />
+    </rules>
+  </element>
+  <element name="Fighting Style" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE">
+    <description>
+      <p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+      <h5 class="caption">ARCHERY</h5>
+      <p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+      <h5 class="caption">BLIND FIGHTING</h5>
+      <p>You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.</p>
+      <h5 class="caption">DEFENSE</h5>
+      <p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+      <h5 class="caption">DRUIDIC WARRIOR</h5>
+      <p>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</p>
+      <h5 class="caption">DUELING</h5>
+      <p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+      <h5 class="caption">TWO-WEAPON FIGHTING</h5>
+      <p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+      <h5 class="caption">THROWN WEAPON FIGHTING</h5>
+      <p>You can draw a weapon that has the thrown property as part of the attack you make with the weapon.</p>
+      <p class="indent">In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.</p>
+    </description>
+    <rules>
+      <select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
+    </rules>
+  </element>
+  <element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING">
+    <description>
+      <p>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the ranger spell list.</p>
+      <h5>SPELL SLOTS</h5>
+      <p>The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+      <p class="indent">For example, if you know the 1st-level spell animal friendship and have a 1st-level and a 2nd-level spell slot available, you can cast animal friendship using either slot.</p>
+      <h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+      <p>You know two 1st-level spells of your choice from the ranger spell list.</p>
+      <p class="indent">The Spells Known column of the Ranger table shows when you learn more ranger spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+      <p class="indent">Additionally, when you gain a level in this class, you can choose one of the ranger spells you know and replace it with another spell from the ranger spell list, which also must be of a level for which you have spell slots.</p>
+      <h5>SPELLCASTING ABILITY</h5>
+      <p>Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one.</p>
+      <center>
+        <p>
+          <strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier
+        </p>
+        <p>
+          <strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier
+        </p>
+      </center>
+    </description>
+    <sheet display="false">
+      <description>You have learned to use the magical essence of nature to cast spells, much as a druid does.</description>
+    </sheet>
+    <spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
+      <list>Ranger</list>
+    </spellcasting>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+      <stat name="ranger:spellcasting:slots:1" value="2" level="2" />
+      <stat name="ranger:spellcasting:slots:1" value="1" level="3" />
+      <stat name="ranger:spellcasting:slots:1" value="1" level="5" />
+      <stat name="ranger:spellcasting:slots:2" value="2" level="5" />
+      <stat name="ranger:spellcasting:slots:2" value="1" level="7" />
+      <stat name="ranger:spellcasting:slots:3" value="2" level="9" />
+      <stat name="ranger:spellcasting:slots:3" value="1" level="11" />
+      <stat name="ranger:spellcasting:slots:4" value="1" level="13" />
+      <stat name="ranger:spellcasting:slots:4" value="1" level="15" />
+      <stat name="ranger:spellcasting:slots:4" value="1" level="17" />
+      <stat name="ranger:spellcasting:slots:5" value="1" level="17" />
+      <stat name="ranger:spellcasting:slots:5" value="1" level="19" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Ranger"/>
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Ranger" />
+      <select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
+    </rules>
+  </element>
+  <element name="Ranger Archetype" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE">
+    <description>
+      <p>At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
+    </rules>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>1/8 CR or lower</li>
+        <li>Medium Size or Smaller</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        1/8 CR or lower
+        Medium Size or Smaller
+      </description>
+    </sheet>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_ASI">
+    <compendium display="false" />
+    <description>
+      <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+      <p class="indent">If your DM allows the use of feats, you may instead take a feat.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Improvement Option (Ranger 4)" supports="Improvement Option,Ranger,4" level="4" />
+      <select type="Class Feature" name="Improvement Option (Ranger 8)" supports="Improvement Option,Ranger,8" level="8" />
+      <select type="Class Feature" name="Improvement Option (Ranger 12)" supports="Improvement Option,Ranger,12" level="12" />
+      <select type="Class Feature" name="Improvement Option (Ranger 16)" supports="Improvement Option,Ranger,16" level="16" />
+      <select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
+    </rules>
+  </element>
+  <element name="Extra Attack" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK">
+    <description>
+      <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+    </description>
+    <sheet>
+      <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+    </sheet>
+    <rules>
+      <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+    </rules>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>1 CR or lower</li>
+        <li>Large Size or Smaller</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        1 CR or lower
+        Large Size or Smaller
+      </description>
+    </sheet>
+  </element>
+  <element name="Mystic Companion" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION">
+    <description>
+      <p>Your companion's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+      <p class="indent">In addition, your companion gains a +1 bonus to their attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.</p>
+    </description>
+    <sheet>
+      <description>
+        Your companion's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+        In addition, your companion gains a +1 bonus to their attack rolls. This bonus increases to +2 at 11th level and +3 at 17th level.
+      </description>
+    </sheet>
+  </element>
+  <element name="Terrain Mastery" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY">
+    <description>
+      <p>You gain swim and climb speeds equal to your walking speed.</p>
+    </description>
+    <sheet>
+      <description>
+        You gain swim and climb speeds equal to your walking speed.
+      </description>
+    </sheet>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>2 CR or lower</li>
+        <li>Large Size or Smaller</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        2 CR or lower
+        Large Size or Smaller
+      </description>
+    </sheet>
+  </element>
+  <element name="Wild Bond" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND">
+    <description>
+      <p>Your bond with nature allows you to take on certain bestial aspects.</p>
+      <p class="indent">As a bonus action, you may gain one of the following benefits for its duration or until you use this feature again.</p>
+      <p class="indent">You can use this bonus action a number of times equal to your proficiency bonus, unless you expend a spell slot of 2nd level or higher to use it again. You regain all expended uses when you finish a long rest.</p>
+    </description>
+    <sheet>
+      <description></description>
+    </sheet>
+  </element>
+  <element name="Camouflage" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE">
+    <description>
+      <p>You gain an enhanced version of the skulker feat, granting the following benefits:</p>
+      <ul>
+        <li>You can try to hide when you are lightly obscured from the creature from which you are hiding.</li>
+        <li>When you are hidden from a creature and miss it with a weapon attack, making the attack doesn't reveal your position.</li>
+        <li>Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight.</li>
+      </ul>
+      <p>In addition, if you already have the skulker feat, you may take an additional feat.</p>
+    </description>
+    <sheet>
+      <description>
+        When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.
+        You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.
+      </description>
+    </sheet>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>3 CR or lower</li>
+        <li>Huge Size or Smaller</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        3 CR or lower
+        Huge Size or Smaller
+      </description>
+    </sheet>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>4 CR or lower</li>
+        <li>Huge Size or Smaller</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        4 CR or lower
+        Huge Size or Smaller
+      </description>
+    </sheet>
+  </element>
+  <element name="Companion Upgrade" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18">
+    <description>
+      <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
+      <ul>
+        <li>5 CR or lower</li>
+      </ul>
+    </description>
+    <sheet>
+      <description>
+        Your companions form has been improved, they now must meet the following restriction:
+        5 CR or lower
+      </description>
+    </sheet>
+  </element>
+  <element name="Call of the Wild" type="Class Feature" source="Other Content" id="ID_IONA_CLASSFEATURE_RANGER_COTW">
+    <description>
+      <p>You have attracted a second fey spirit to your side, allowing you to have 2 Woodland Companions simultaneously. Any class or subclass features that reference your companion affect both companions.</p>
+    </description>
+    <sheet>
+      <description>You now have a second animal companion that can act as well as the first. Any class or subclass features that reference your companion affect both companions.</description>
+    </sheet>
+  </element>
+
+  <element name="Homebrew Beast Master" type="Archetype" source="Other Content" id="ID_IONA_ARCHETYPE_RANGER_BEAST_MASTER">
+    <supports>Ranger Archetype</supports>
+    <description>
+      <p>The Beast Master archetype embodies the friendship between a ranger and their companion. United in focus, even the most monstrous foes cannot stand before your combined ferocity.</p>
+      <div element="ID_IONA_ARCHETYPEFEATURE_RANGER_ARCHETYPE_COMPANIONS" />
+      <div element="ID_IONA_ARCHETYPEFEATURE_RANGER_FAO" />
+      <div element="ID_IONA_ARCHETYPEFEATURE_RANGER_TAG_TEAM" />
+      <div element="ID_IONA_ARCHETYPEFEATURE_RANGER_SPIRIT_BOND" />
+      <div element="ID_IONA_ARCHETYPEFEATURE_RANGER_BEASTIAL_WRATH" />
+    </description>
+    <sheet display="false">
+      <description>The Beast Master archetype embodies the friendship between a ranger and their companion. United in focus, even the most monstrous foes cannot stand before your combined ferocity.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_IONA_ARCHETYPEFEATURE_RANGER_ARCHETYPE_COMPANIONS" level="3" />
+      <grant type="Archetype Feature" id="ID_IONA_ARCHETYPEFEATURE_RANGER_FAO" level="3" />
+      <grant type="Archetype Feature" id="ID_IONA_ARCHETYPEFEATURE_RANGER_TAG_TEAM" level="7" />
+      <grant type="Archetype Feature" id="ID_IONA_ARCHETYPEFEATURE_RANGER_SPIRIT_BOND" level="11" />
+      <grant type="Archetype Feature" id="ID_IONA_ARCHETYPEFEATURE_RANGER_BEASTIAL_WRATH" level="15" />
+    </rules>
+  </element>
+  
+  <element name="Archetype Companions" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_ARCHETYPE_COMPANIONS">
+    <description>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Archetype Companions" supports="Archetype Companions" />
+    </rules>
+  </element>
+  
+  <element name="Fight as One" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_FAO">
+    <description>
+      <p>Your companion gains a bonus to its AC and damage rolls equal to your proficiency bonus.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Fight as One" supports="Fight as One" />
+    </rules>
+  </element>
+  <element name="Tag Team" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_TAG_TEAM">
+    <description>
+      <p>When you or your companion make your first attack on your turn, you can choose to Tag Team your enemies. Doing so grants you and your companion advantage on attack rolls against a creature if at least one of you is within 5 feet of the creature and is not incapacitated until the start of your next turn.</p>
+      <p class="indent">You can use this feature a number of times equal to your proficiency bonus, unless you expend a spell slot of 2nd level or higher to use it again. You regain all expended uses when you finish a long rest.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Tag Team" supports="Tag Team" />
+    </rules>
+  </element>
+  
+  <element name="Spirit Bond" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_SPIRIT_BOND">
+    <description>
+      <p>When you or your companion take damage, they can choose to gain resistance to that damage. Doing so causes the other to take the same amount of damage.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Spirit Bond" supports="Spirit Bond" />
+    </rules>
+  </element>
+
+  <element name="Beastial Wrath" type="Archetype Feature" source="Other Content" id="ID_IONA_ARCHETYPEFEATURE_RANGER_BEASTIAL_WRATH">
+    <description>
+      <p>Your companion can use a bonus action to enter a frenzied state. Doing so grants them the following bonuses for 1 minute:</p>
+      <ul>
+        <li>25 temporary hit points</li>
+        <li>Additional 1d12 damage dealt by melee damage rolls</li>
+        <li>Can attack an additional time when taking the attack or multiattack action.</li>
+      </ul>
+      <p>Once your companion uses this feature they cannot do so again until you finish a long rest.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype Feature" name="Beastial Wrath" supports="Beastial Wrath" />
+    </rules>
+  </element>
+  
+</elements>
