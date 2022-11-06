@@ -295,18 +295,13 @@
       <div element="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_SPELLCASTING" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_3RD_LEVEL" />
+      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_ASI" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_5TH_LEVEL" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_7TH_LEVEL" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_10TH_LEVEL" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_14H_LEVEL" />
-      <div element="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_18TH_LEVEL" />
       <div element="ID_IONA_CLASSFEATURE_RANGER_COTW" />
     </description>
     <sheet display="false">
@@ -329,18 +324,18 @@
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_1" level="3"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_ASI" level="4"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_2" level="5"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="5"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_MYSTIC_COMPANION" level="6"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_TERRAIN_MASTERY" level="6"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_3" level="7"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="7"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_WILD_BOND" level="8"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_CAMOUFLAGE" level="9"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_4" level="10"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_5" level="14"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_6" level="18"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="10"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="14"/>
+      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="18"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COTW" level="20"/>
     </rules>
     <multiclass id="ID_IONA_HOMEBREW_MULTICLASS_RANGER">
@@ -462,7 +457,7 @@
       <select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_3RD_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -504,7 +499,7 @@
       <stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
     </rules>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_5TH_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -542,7 +537,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_7TH_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -585,7 +580,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_10TH_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -601,7 +596,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_14TH_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
@@ -617,7 +612,7 @@
       </description>
     </sheet>
   </element>
-  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE_18TH_LEVEL">
+  <element name="Companion Upgrade" type="Class Feature" source="My Homebrew" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE">
     <description>
       <p>The types of forms your companion may take have been improved, as seen in the Companion Forms table. They now have access to beasts with the following restrictions:</p>
       <ul>
