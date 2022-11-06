@@ -2,6 +2,8 @@
 <index>
 	<info>
 		<name>My Content</name>
+		<description>My Homebrew Content or Content I have added from other sources for my own personal use.</description>
+		<author>Iona Nicoll</author>
 		<update version="1.0.1">
 			<file name="user-IonaNicoll.index" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll.index" />
 		</update>
