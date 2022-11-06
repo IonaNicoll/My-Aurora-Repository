@@ -3,7 +3,7 @@
 	<info>
 		<name>File 1</name>
 		<update version="1.0.1">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/file1.xml" />
+			<obsolete name="file1.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/file1.xml" />
 		</update>
 	</info>
 	
