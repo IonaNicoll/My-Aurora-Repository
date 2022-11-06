@@ -322,7 +322,7 @@
       <select type="Proficiency" name="Skill Proficiency (Ranger)" supports="Skill,Ranger" number="3" requirements="!ID_IONA_HOMEBREW_MULTICLASS_RANGER" />
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_WOODLAND_COMPANION" level="1"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
-      <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+      <grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_COMPANION_UPGRADE" level="3"/>
       <grant type="Class Feature" id="ID_IONA_CLASSFEATURE_RANGER_ASI" level="4"/>
