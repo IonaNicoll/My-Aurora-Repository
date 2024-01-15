@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Warlock Desert Subclass</name>
+    <update version="1.0.1">
+      <file name="Warlock_Desert_Subclass.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Warlock_Desert_Subclass.xml" />
+    </update>
+  </info>
+
+  <!-- place your elements here -->
+
+  <element name="The Desert Sun" type="Archetype" source="Other Content" id="ID_IONA_HOMEBREW_OTHERWORLDLY_PATRON_THE_DESERT_SUN">
+    <supports>Otherworldly Patron</supports>
+    <description>
+      <p>Your patron is the scorching embodiment of the desert sun, a force of relentless heat and unyielding power. This entity represents the harsh beauty of arid landscapes, the burning passion of the midday sun, and the secrets hidden beneath the shifting sands. This patron has chosen you to be a conduit for its searing magic, bestowing upon you the ability to harness the power of heat, light, and the desolate expanses.</p>
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SUNFIREINFUSION"/>
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SANDSWEPTSTEP"/>
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SEARINGGAZE"/>
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_RADIANTRESURGENCE"/>
+    </description>
+    <sheet display="false">
+      <description>You have made a pact with the desert's scorching sun.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SUNFIREINFUSION" level="1" />
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SANDSWEPTSTEP" level="6" />
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SEARINGGAZE" level="10" />
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_RADIANTRESURGENCE" level="14" />
+    </rules>
+  </element>
+  <element name="Sunfire Infusion" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SUNFIREINFUSION">
+    <description>
+      <p>Starting at 1st level, your connection to the Desert Sun Patron grants you the ability to infuse your spells with scorching energy. Whenever you cast a spell that deals fire or radiant damage, you can add your Charisma modifier to the damage roll. In addition, when you cast a spell that illuminates an area with bright light, the illumination radius increases by 10 feet.</p>
+    </description>
+    <sheet>
+      <description>When you cast a spell that deals fire or radiant damage, you add {{sunfire infusion:add damage}} to the damage roll.</description>
+    </sheet>
+    <rules>
+      <stat name="sunfire infusion:add damage" value="charisma:modifier" />
+      <stat name="sunfire infusion:add damage" value="level:warlock" />
+    </rules>
+  </element>
+  <element name="Sandswept Step" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SANDSWEPTSTEP">
+    <description>
+      <p>Upon reaching 6th level, the very essence of the desert's shifting sands becomes your ally. As a reaction when you take damage, you can use your Sandswept Step to grant yourself resistance to that damage type until the start of your next turn. Additionally, difficult terrain made of sand does not cost you extra movement, and you can move across the surface of loose sand as if it were solid ground.</p>
+    </description>
+    <sheet usage="1/Turn">
+      <description>When you take damage, use your rection to grant yourself resistance to that damage type.</description>
+    </sheet>
+  </element>
+  <element name="Searing Gaze" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SEARINGGAZE">
+    <description>
+      <p>At 10th level, your eyes become infused with the brilliance of the desert sun. You gain darkvision out to a range of 120 feet. Additionally, you can use an action to focus your searing gaze on a creature within 30 feet of you. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or take fire damage equal to your Charisma modifier and be blinded until the end of their next turn.</p>
+    </description>
+    <sheet>
+      <description>You gain darkvision out to 120 feet. Additionally, using an action you can force a creature within 30 feet to make a Wizdom Saving Throw against your Spell Save DC. On a fail the creature takes {{searing gaze:damage}} fire damage and is blinded until the end of their next turn.</description>
+    </sheet>
+    <rules>
+      <stat name="searing gaze:damage" value="charisma:modifier" />
+      <stat name="searing gaze:damage" value="level:warlock" />
+    </rules>
+  </element>
+  <element name="Radiant Resurgence" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_RADIANTRESURGENCE">
+    <description>
+      <p>Upon attaining the 14th level, the Desert Sun Patron grants you the ability to rise from the ashes like the legendary phoenix. When you are reduced to 0 hit points and are not killed outright, you can use your reaction to erupt in radiant flames. Creatures within 10 feet of you must make a Dexterity saving throw against your warlock spell save DC, taking fire and radiant damage equal to your warlock level on a failed save, or half as much damage on a successful one.</p>
+      <p class="indent">Additionally, when you roll initiative and have no uses of this feature, you regain one use.</p>
+      <p class="indent">After using this feature, you must complete a long rest before using it again.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>
+        When you are reduced to 0 hit points, you can erupt into flames forcing creatures within 10 feet to make a Dexterity saving throw against Spell Save DC.
+        On a failed save the creature takes {{radiant resurgence:damage}} fire and radiant damage, and half as much on a successful one.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="radiant resurgence:damage" value="level:warlock" />
+    </rules>
+  </element>
+ </elements>
