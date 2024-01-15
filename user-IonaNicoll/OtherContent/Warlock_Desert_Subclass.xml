@@ -37,7 +37,6 @@
     </sheet>
     <rules>
       <stat name="sunfire infusion:add damage" value="charisma:modifier" />
-      <stat name="sunfire infusion:add damage" value="level:warlock" />
     </rules>
   </element>
   <element name="Sandswept Step" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_SANDSWEPTSTEP">
@@ -57,7 +56,6 @@
     </sheet>
     <rules>
       <stat name="searing gaze:damage" value="charisma:modifier" />
-      <stat name="searing gaze:damage" value="level:warlock" />
     </rules>
   </element>
   <element name="Radiant Resurgence" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_DESERT_SUN_RADIANTRESURGENCE">
