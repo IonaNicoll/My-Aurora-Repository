@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-    
+    <file name="spells.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/MyHomebrew/spells.xml" />
 	</files>
 </index>
