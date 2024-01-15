@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <update version="0.4.5">
+      <file name="spells.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/MyHomebrew/spells.xml" />
+    </update>
+  </info>
+
+  <element name="Armor of Flames" type="Spell" source="My Homebrew" id="ID_IONA_HOMEBREW_SPELL_ARMOR_OF_FLAMES">
+    <supports>Warlock</supports>
+    <description>
+      <p>A protective magical force surrounds you, manifesting as a spectral fire that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 fire damage.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords">fire</set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a flame</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>
