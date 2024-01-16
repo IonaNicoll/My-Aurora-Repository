@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-  <element name="Cleric Ocean Domain" type="Archetype" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_OCEANDOMAIN">
+  <element name="Ocean Domain" type="Archetype" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_OCEANDOMAIN">
     <supports>Divine Domain</supports>
     <description>
       <p>The Ocean Domain represents the vast and mysterious power of the seas and oceans. Clerics who follow this domain have a deep connection to the ebb and flow of the tides, and they draw upon the elemental forces of water to protect and heal, or to bring forth the wrath of the sea in times of need.</p>
