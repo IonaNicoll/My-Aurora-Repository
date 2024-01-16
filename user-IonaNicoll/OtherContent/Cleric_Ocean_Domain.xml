@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Cleric Ocean Domain</name>
+		<update version="0.4">
+			<file name="Cleric_Ocean_Domain.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Cleric_Ocean_Domain.xml" />
+		</update>
+	</info>
+
+  <element name="Cleric Ocean Domain" type="Archetype" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_OCEANDOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>The Ocean Domain represents the vast and mysterious power of the seas and oceans. Clerics who follow this domain have a deep connection to the ebb and flow of the tides, and they draw upon the elemental forces of water to protect and heal, or to bring forth the wrath of the sea in times of need.</p>
+      <h5 class="caption">OCEAN DOMAIN SPELLS</h5>
+      <table>
+        <thead>
+          <tr>
+            <td>Cleric Level</td>
+            <td>Spells</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1st</td>
+          <td>
+            <em>create or destroy water, fog cloud</em>
+          </td>
+        </tr>
+        <tr>
+          <td>3rd</td>
+          <td>
+            <em>water breathing, misty step</em>
+          </td>
+        </tr>
+        <tr>
+          <td>5th</td>
+          <td>
+            <em>control water, water walk</em>
+          </td>
+        </tr>
+        <tr>
+          <td>7th</td>
+          <td>
+            <em>watery sphere, freedom of movement</em>
+          </td>
+        </tr>
+        <tr>
+          <td>9th</td>
+          <td>
+            <em>maelstrom, tsunami</em>
+          </td>
+        </tr>
+      </table>
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_BONUSPROFICIENCY" />
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_WATERS_BLESSING" />
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_TIDALSURGE" />
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_AQUATICSHIELD" />
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_TIDALRESILIENCE" />
+      <div element="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_AVATAROFTHEABYSS" />
+    </description>
+    <sheet display="false">
+      <description>The Ocean domain focuses on the preserving the Ocean from those that would see it done harm.</description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WATER_BREATHING" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MISTY_STEP" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONTROL_WATER" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WATER_WALK" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_POTA_SPELL_WATERYSPHERE" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_POTA_SPELL_MAELSTROM" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_TSUNAMI" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_BONUSPROFICIENCY" level="1"/>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_WATERS_BLESSING" level="1"/>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_TIDALSURGE" level="2"/>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_AQUATICSHIELD" level="6"/>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_TIDALRESILIENCE" level="8"/>
+      <grant type="Archetype Feature" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_AVATAROFTHEABYSS" level="17"/>
+    </rules>
+  </element>
+  <element name="Bonus Proficiency" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_BONUSPROFICIENCY">
+    <description>
+      <p>When you choose this domain at 1st level, you gain proficiency with Water Vehicles and the ability to speak Aquan.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_WATER" />
+      <grant type="Language" id="ID_MM_LANGUAGE_AQUAN" />
+    </rules>
+  </element>
+  <element name="Water's Blessing" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_WATERS_BLESSING">
+    <description>
+      <p>At 1st level, you gain the ability to harness the calming and healing aspects of water. As a bonus action, you can touch a creature to heal them. As a bonus action, you can touch a creature to heal them. The target regains hit points equal to 1d6 + your cleric level. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses after finishing a long rest.</p>
+    </description>
+    <sheet usage ="{{water's blessing:usage}}/Long Rest">
+      <description>As a bonus action, you can touch a creature to heal them. The target regains hit points equal to 1d6 + {{water's blessing:health}}.</description>
+    </sheet>
+    <rules>
+      <stat name="water's blessing:usage" value="wisdom:modifier" />
+      <stat name="water's blessing:health" value="level:cleric" />
+    </rules>
+  </element>
+  <element name="Channel Divinity: Tidal Surge" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_TIDALSURGE">
+    <description>
+      <p>Starting at 2nd level, you can use your Channel Divinity to invoke the power of a tidal wave.</p>
+      <p class="indent">As an action, you can create a 15-foot cone of water that rushes forth in a direction of your choice. Each creature in that cone must make a Strength Saving Throw. On a failed save, a creature takes 2d8 bludgeoning damage and is pushed 10 feet away from you. On a successful save, the creature takes half damage and isn't pushed.</p>
+    </description>
+    <sheet alt="Tidal Surge" action="Action" usage="Channel Divinity">
+      <description>You present your holy symbol and evoke a 15-foot cone of water in a direction of your choosing. Each creature in that cone must make a Strength Saving Throw. On a failed save they take 2d8 blugeoning samage and is pushed 10 feet away. On a successful save, the creature takes half damage and isn't pushed.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  <element name="Channel Divinity: Aquatic Shield" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_CHANNELDIVINITY_AQUATICSHIELD">
+    <description>
+      <p>At 6th level, you can use your Channel Divinity to create a protective barrier of water. </p>
+      <p class="indent">As a reaction when you or a creature within 30 feet of you is hit by an attack, you can invoke this shield. The attacker must make a Dexterity Saving Throw. On a failed save, the attack misses, and the attacker takes cold damage equal to your cleric level. On a successful save, the attack hits, but the attacker still takes half damage.</p>
+    </description>
+    <sheet alt="Aquatic Shield" action="Action" usage="Channel Divinity">
+      <description>As a reaction when you or a creature within 30 feet of you is hit by an attack, you can present your holy symbol and evoke a shield of water. The attacker must make a Dexterity Saving Throw. On a failed save, the attack misses and the attacker takes {{aquatic shield:damage}} Cold Damage. On a successful save the attack hits but the attacker still takes {{aquatic shield:half damage}} Cold Damage</description>
+    </sheet>
+    <rules>
+      <stat name="aquatic shield:damage" value="level:cleric" />
+      <stat name="aquatic shield:half damage" value="level:cleric:half:up" />
+    </rules>
+  </element>
+  <element name="Tidal Resilience" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_TIDALRESILIENCE">
+    <description>
+      <p>Beginning at 8th level, you gain resistance to cold damage, and you can breathe underwater as easily as you breathe air. You also gain advantage on saving throws against effects that would cause you to be restrained or incapacitated in water.</p>
+    </description>
+    <sheet>
+      <description>You have resistance to cold damage and can breathe underwater. You also have advantage on Saving Throws against effects that would cause you to be restrained or incapacitated in water.</description>
+    </sheet>
+  </element>
+  <element name="Avatar of the Abyss" type="Archetype Feature" source="Other Content" id="ID_IONA_HOMEBREW_ARCHETYPE_FEATURE_OCEAN_AVATAROFTHEABYSS">
+    <description>
+      <p>At 17th level, you can transform into a watery embodiment of the Ocean's Fury. As an action, you assume a form made of water for 1 minute. While in this form, you have the following benefits:</p>
+      <ul>
+        <li>You gain a flying speed equal to your walking speed.</li>
+        <li>You can move through other creatures and objects as if they were difficult terrain.</li>
+        <li>You can use your Water's Blessing feature without expending a use.</li>
+        <li>Your spells that deal cold or water damage deal maximum damage.</li>
+      </ul>
+      <p>Once you use this feature, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>For 1 minute, you assume a watery form. While in this form you have a flying speed equal to your walking speed, you can move through other creatures and objects as if they were difficult terrain, you can use your Water's Blessing feature without expending a use, and your spells that deal cold or water damage deal maximum damage.</description>
+    </sheet>
+  </element>
+</elements>
