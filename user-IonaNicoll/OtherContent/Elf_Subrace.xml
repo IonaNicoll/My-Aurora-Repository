@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elf</name>
+		<update version="0.2">
+			<file name="Elf_Subrace.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Elf_Subrace.xml" />
+		</update>
+	</info>
+
+	<element name="Dunewalker Elf" type="Sub Race" source="Other Content" id="ID_IONA_HOMEBREW_SUB_RACE_DUNEWALKER_ELF">
+		<supports>Elf</supports>
+		<description>
+			<p>The desert-dwelling dunewalker elves match other elves in height and weight. Their coloration is typically darker, ranging from warm tawny and golden shades to deep sepia tones. Their eyes are amber, brown, or black. Dunewalker elf hair usually comes in shades of brown or black, though some have hair of a dark auburn or copper color.</p>
+      <p>Dunewalker elves are canny survivors and hunters, aware of the precious resources and dire dangers of their harsh lands. They step lightly across the sands and seem to simply vanish right before one's eyes, as if they were nothing more than a mirage conjured by the heat.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+      <p class="indent"><strong><em>Desert Dweller.</em></strong> You are adapted to life in then desert. You suffer no ill effects from high temperatures, and you require no additional water in such conditions. You have proficiency in the Survival skill.</p>
+      <p class="indent"><strong><em>Desert Mirage.</em></strong> While outdoors in a sunny area with an ambient temperature warmer than freezing, you can use a bonus action to create a minor natural phenomenon that surrounds you and up to a number of allies within 10 feet of you equal to your proficiency bonus. The mirage lightly obscures each of you from the view of any creature more than 30 feet away from you for 1 minute. For the duration, each target can attempt to hide even if a target is obscured only by this mirage. You can't use this train again until you finish a short or long rest.</p>
+      <p class="indent"><strong><em>Dunewalker Elf Weapon Training.</em></strong> You have proficiency with the longbow, scimitar, shortbow, and spear.</p>
+			<p class="indent"><strong><em>Sand Spirit.</em></strong> Difficult terrain comprised of sand or similar desert environs doesn't cost you extra movement.</p>
+    </description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DUNEWALKER_ELF_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DESERT_DWELLER" />
+			<grant type="Racial Trait" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DESERT_MIRAGE" />
+      <grant type="Racial Trait" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_SAND_SPIRIT" />
+		</rules>
+	</element> 	
+	<element name="Dunewalker Elf Weapon Training" type="Racial Trait" source="Other Content" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DUNEWALKER_ELF_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the longbow, scimitar, shortbow, and spear.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longbow, scimitar, shortbow, and spear.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+		</rules>
+	</element>
+	<element name="Desert Dweller" type="Racial Trait" source="Other Content" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DESERT_DWELLER">
+		<description>
+			<p>You suffer no ill effects from high temperatures, and you require no additional water. You have proficiency in the Survival Skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You suffer no ill effects from high temperatures, and you require no additional water. You have proficiency in the Survival Skill.</description>
+		</sheet>
+		<rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Desert Mirage" type="Racial Trait" source="Other Content" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_DESERT_MIRAGE">
+		<description>
+			<p>While outdoors in a sunny area warmer than freezing, you can use a bonus action to lightly obscure a number of allies up to your proficiency bonus within 10 feet of you.</p>
+      <p>The mirage lightly obscures you and allies from any creature more than 30 feet away from you for 1 minute. For the duration, each target can attempt to hide even if the target is only obscured by this mirage.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>
+				<p>While outdoors in a sunny area warmer than freezing, you can use a bonus action to lightly obscure {{desert mirage:number of allies}} within 10 feet of you.</p>
+				<p>The mirage lightly obscures you and allies from any creature more than 30 feet away from you for 1 minute. For the duration, each target can attempt to hide even if the target is only obscured by this mirage.</p>
+			</description>
+    </sheet>
+    <rules>
+      <stat name="desert mirage:number of allies" value="proficiency" />
+    </rules>
+	</element>
+  <element name="Sand Spirit" type="Racial Trait" source="Other Content" id="ID_IONA_HOMEBREW_RACIAL_TRAIT_SAND_SPIRIT">
+    <description>
+      <p>Difficult terrain comprised of sand or similar desert environs doesn't cost you extra movement.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Difficult terrain comprised of sand or similar desert environs doesn't cost you extra movement.</p>
+      </description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+</elements>

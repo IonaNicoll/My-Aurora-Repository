@@ -11,5 +11,6 @@
 	<files>
     <file name="Ranger_Class.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Ranger_Class.xml" />
     <file name="Warlock_Desert_Subclass.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Warlock_Desert_Subclass.xml" />
-	</files>
+    <file name="Elf_Subrace.xml" url="https://raw.githubusercontent.com/IonaNicoll/My-Aurora-Repository/master/user-IonaNicoll/OtherContent/Elf_Subrace.xml" />
+  </files>
 </index>
